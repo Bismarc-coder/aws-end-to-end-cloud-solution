@@ -8,10 +8,10 @@ This project focuses on designing, building, securing, and deploying a scalable 
 
 The solution uses AWS services, automation, and collaboration tools to create a secure, highly available, and cost-conscious cloud environment.
 
-**Project type:** AWS Cloud Engineering / DevOps Capstone Project  
-**Environment:** AWS Free Tier (where eligible)  
-**Project management:** Trello  
-**Version control and CI/CD:** GitHub and GitHub Actions
+Project type: AWS Cloud Engineering / DevOps Capstone Project  
+Environment: AWS Free Tier (where eligible)  
+Project management: Trello  
+Version control and CI/CD: GitHub and GitHub Actions
 
 ## 🎯 Project Objectives
 
@@ -27,19 +27,19 @@ The solution uses AWS services, automation, and collaboration tools to create a 
 
 The project follows a cloud architecture that combines application hosting, traffic distribution, content delivery, security, and monitoring.
 
-**Request flow:**
+Request flow:
 
 `User → Amazon CloudFront → Application Load Balancer (ALB) → Amazon EC2`
 
-- **Amazon CloudFront:** Distributes application content and supports secure HTTPS delivery.
-- **Application Load Balancer (ALB):** Distributes incoming requests across registered EC2 instances.
-- **Amazon EC2:** Hosts the web application.
-- **AWS Certificate Manager (ACM):** Provides SSL/TLS certificates for HTTPS connections.
-- **AWS IAM:** Controls access to AWS resources.
-- **Amazon CloudWatch:** Monitors application and infrastructure metrics and generates alarms.
-- **AWS Budgets:** Helps track spending and sends alerts when configured cost thresholds are approached.
-- **GitHub Actions:** Automates deployment workflows when code changes are pushed to the repository.
-- **Trello:** Tracks tasks, project progress, and deployment activities.
+- Amazon CloudFront: Distributes application content and supports secure HTTPS delivery.
+- Application Load Balancer (ALB): Distributes incoming requests across registered EC2 instances.
+- Amazon EC2: Hosts the web application.
+- AWS Certificate Manager (ACM): Provides SSL/TLS certificates for HTTPS connections.
+- AWS IAM: Controls access to AWS resources.
+- Amazon CloudWatch: Monitors application and infrastructure metrics and generates alarms.
+- AWS Budgets: Helps track spending and sends alerts when configured cost thresholds are approached.
+- GitHub Actions: Automates deployment workflows when code changes are pushed to the repository.
+- Trello: Tracks tasks, project progress, and deployment activities.
 
 *Note: This describes the planned architecture. The final implementation may vary depending on the deployment configuration.*
 
@@ -134,7 +134,7 @@ The project incorporates basic operational monitoring and cost-management practi
 - Stop or terminate resources when they are no longer required.
 - Review the cost implications of CloudFront, load balancing, NAT gateways, and other services before deployment.
 
-**Important:** AWS Free Tier eligibility and pricing vary by account, service, and usage. Not all resources in this architecture are necessarily free. Verify current pricing before provisioning resources.
+Important: AWS Free Tier eligibility and pricing vary by account, service, and usage. Not all resources in this architecture are necessarily free. Verify current pricing before provisioning resources.
 
 ## 📦 Expected Deliverables
 
@@ -167,10 +167,6 @@ This project is designed to demonstrate practical skills in:
 
 ## 👨‍💻 Project Status
 
-**Status:** Planned / In Progress — update this section as implementation progresses.
+Status: Planned / In Progress — update this section as implementation progresses.
 
 This repository will document the development process, AWS configuration, deployment workflow, testing results, and lessons learned throughout the project.
-
-## 📄 License
-
-Choose an appropriate open-source license before distributing or reusing this project. If no license has been added, all rights remain reserved by the copyright holder.
